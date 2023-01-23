@@ -1,0 +1,94 @@
+* {
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+body {
+    background: #f9f9f9;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    background:blue;
+    width:100%;
+    height:70px;
+    margin-top:0;
+    margin-left:0;
+    position:fixed; 
+}
+ul li {
+    display: inline-block;
+   float : right;
+    line-height:70px;
+    margin-right:30px;
+  
+}
+li a {
+    color: #ffffff;
+    font-size:18px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box {
+    background:#ffffff;
+    width:100%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+}
+h1 {
+    position:absolute;
+    font-family:Bahnschrift Condensed;
+    color:blue;
+    margin-top:155px;
+}
+p {
+    position:absolute;
+    font-size:20px;
+    margin-top:185px;
+    color:#000;
+}
+.my_projects {
+    width:100%;
+    height:400px;
+    background:skyblue;
+    display:flex;
+    justify-content: center;
+}
+.pro_tx{
+margin-top:10px;
+color:#ffffff;
+}
+.images {
+    height:300px;
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    position:relative;
+}
+img{
+    width:300px;
+    height:300px;
+    margin: 0px 20px;
+    border-radius: 15px;
+
+}
+
+.footer_links {
+    background:#ffffff;
+    width: 100%;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.clo {
+    color:blue;
+    text-transform: uppercase;
+    font-family:Ink Free;
+    transform: 1s;
+}
+.clo:hover {
+    border-bottom: 1px solid blue;
+}
